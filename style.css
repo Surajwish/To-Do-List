@@ -1,0 +1,98 @@
+body{
+    margin:0px;
+    padding:5px;
+    background-color: rgb(231, 148, 96);
+    background-image: linear-gradient(to right,rgba(245, 169, 255, 0.925), rgba(255, 239, 9, 0.705))
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+h1{
+    border-bottom: 6px double darkgreen;
+    font-family: 'Grechen Fuemen', cursive;
+    text-align: center;
+    font-size:180%;
+}
+#task-container{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    height:30px;
+}
+
+button{
+    margin-left:10px;
+    padding:5px;
+    background-color: lightskyblue;
+    width:70px;
+    font-weight: bold;
+    font-size: 105%;
+    height:30px;
+    border-radius: 5px;
+}
+button:hover{
+    opacity: 0.8;
+    background-color: rgb(255, 75, 75);
+    transition: all 0.2s ease;
+    width:72px; 
+}
+input{
+    width:30%;
+    height:94%;
+    background-color: rgb(243, 239, 220);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#op_container{
+    background-color: rgb(204, 231, 231);
+    width:70%;
+    margin:20px auto;
+    padding: 0px 10px; 
+    padding-top:10px;
+    padding-bottom:15px;
+    border-radius: 10px;
+}
+
+h3{
+    text-align: center;
+}
+#op{
+    width:60%;
+    margin:0 auto;
+}
+
+
+ul{
+    padding-inline-start: 5px;
+}
+li{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 5px 4px;
+    margin: 6px 2px;
+    text-align: left;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(232, 243, 192);
+    border-left:4px solid ;
+    overflow-wrap: break-word;
+}
+span{
+    font-size: small;
+}
+
+#clear{
+    width : 100px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+#clear:hover{
+    width:105px;
+    background-color: rgb(255, 75, 75);
+}
